@@ -1,0 +1,26 @@
+.comp-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color:#A79F9F;
+    background-color: #fff;
+
+    padding: 15px;
+    
+
+    .bola{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: rgba(244, 122, 8, 1);
+        color: #fff;
+
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+    }
+}
